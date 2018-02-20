@@ -1,0 +1,104 @@
+.main {
+    width: 950px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.inn-user-filter {
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    .filter-box {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .filter-more {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #999;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 7px 15px;
+        line-height: 1;
+    }
+    .filter-title {
+        float: left;
+        padding: 7px 15px;
+        line-height: 1;
+    }
+    .filter-content {
+        position: relative;
+        float: left;
+        width: 880px;
+        color: #555;
+        border-bottom: 1px dotted #eee;
+        padding-bottom: 10px;
+        .list {
+            overflow: hidden;
+            height: 30px;
+            width: 90%;
+            a {
+                font-size: 14px;
+                margin-bottom: 5px;
+                float: left;
+                color: #555;
+                padding: 7px 15px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+.item-user {
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .05);
+        border-bottom-color: #eaebef;
+        border-left-color: #edeef2;
+        position: relative;
+        z-index: 8;
+    }
+    transition: border-color ease-in-out .4s,
+    box-shadow ease-in-out .15s;
+    width: 100%;
+    padding: 20px;
+    .user-avatar {
+        img {
+            display: block;
+            width: 88px;
+            height: 88px;
+            border-radius: 100%;
+        }
+    }
+    .user-name {
+        text-align: center;
+    }
+    .user-info {
+        margin-left: 20px;
+    }
+    .title {
+        display: inline-block;
+        padding-right: 10px;
+        max-width: 380px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    .description {
+        margin-top: 25px;
+        font-size: 14px;
+        .desc-item {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-bottom: 10px;
+            em {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

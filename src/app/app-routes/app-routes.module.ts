@@ -11,12 +11,17 @@ const appRoutes: Routes = [
   },
   {
     path: 'index',
-    loadChildren: 'app/home/login/login.module#LoginModule',
+    loadChildren: 'app/home/index/index.module#IndexModule',
     //canActivate: [CanActivateService]
   },
   {
     path: '',
-    loadChildren: 'app/home/login/login.module#LoginModule',
+    loadChildren: 'app/home/index/index.module#IndexModule',
+    //canActivate: [CanActivateService]
+  },
+  {
+    path: 'about',
+    loadChildren: 'app/home/about/about.module#AboutModule',
     //canActivate: [CanActivateService]
   }
 ]

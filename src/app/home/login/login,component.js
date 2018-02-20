@@ -22,8 +22,14 @@ export default StyleSheet.create({
   },
   'main tabs': {
     'width': [{ 'unit': 'px', 'value': 500 }],
-    'height': [{ 'unit': 'px', 'value': 447 }],
     'padding': [{ 'unit': 'px', 'value': 40 }, { 'unit': 'px', 'value': 40 }, { 'unit': 'px', 'value': 40 }, { 'unit': 'px', 'value': 40 }],
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }]
+  },
+  'main R': {
+    'display': 'block',
+    'textAlign': 'center',
+    'fontSize': [{ 'unit': 'px', 'value': 15 }],
+    'lineHeight': [{ 'unit': 'px', 'value': 16 }],
+    'color': '#767c84'
   }
 });
