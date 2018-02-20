@@ -1,0 +1,21 @@
+#iheader {
+    width: 100%;
+    .container {
+        width: 950px;
+        margin: 0 auto;
+        #iheader-logo {
+            margin-top: 15px;
+            display: block;
+            width: 97px;
+            height: 30px;
+        }
+        .nav-bar li {
+            font-size: 16px;
+            line-height: 18pt;
+            color: #47465D;
+            font-weight: 400;
+            padding: 15px;
+            float: left;
+        }
+    }
+}

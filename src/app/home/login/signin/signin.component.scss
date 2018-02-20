@@ -1,0 +1,50 @@
+button {
+    border: none;
+    outline-style: none;
+    padding: 15px 30px;
+    background: #00aeee;
+    color: #fff!important;
+    font-size: 14px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.ipt-group {
+    position: relative;
+    padding-bottom: 9px;
+    margin-bottom: 36px;
+    label {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        color: #767c84;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    input:focus {
+        border-color: #00aeee;
+        border-width: 2px;
+    }
+    input {
+        transition: border-color ease-in-out .4s, box-shadow ease-in-out .15s;
+        border: none;
+        outline: none;
+        text-indent: 56px;
+        border-bottom: 1px solid rgba(118, 124, 132, 0.23137254901960785);
+        height: 44px;
+        padding: 9px 0;
+        font-size: 18px;
+        line-height: 1.3;
+        display: block;
+        width: 100%;
+    }
+}
+
+.tips {
+    width: 100%;
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 16px;
+    line-height: 70px;
+    margin-top: 15px;
+}

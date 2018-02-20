@@ -1,0 +1,25 @@
+.main {
+    width: 712px;
+    margin: 0 auto;
+    .dec {
+        padding: 100px 0px 45px;
+        text-align: center;
+        h1 {
+            font-size: 44px;
+            line-height: 40pt;
+            margin: 0 0 20px;
+            padding: 0;
+            font-weight: bolder;
+        }
+        p {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .tabs {
+        width: 500px;
+        height: 447px;
+        padding: 40px;
+        margin: 0 auto;
+    }
+}
