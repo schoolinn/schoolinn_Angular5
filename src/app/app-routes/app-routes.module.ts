@@ -23,6 +23,11 @@ const appRoutes: Routes = [
     path: 'about',
     loadChildren: 'app/home/about/about.module#AboutModule',
     //canActivate: [CanActivateService]
+  },
+  {
+    path: 'wo',
+    loadChildren: 'app/home/wo/wo.module#WoModule',
+    //canActivate: [CanActivateService]
   }
 ]
 
