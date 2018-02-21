@@ -2,9 +2,13 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   '#iheader': {
-    'width': [{ 'unit': '%H', 'value': 1 }]
+    'width': [{ 'unit': '%H', 'value': 1 }],
+    'position': 'fixed',
+    'top': [{ 'unit': 'px', 'value': 0 }],
+    'zIndex': '22'
   },
   '#iheader container': {
+    'background': '#fff',
     'width': [{ 'unit': 'px', 'value': 950 }],
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'px', 'value': 0 }, { 'unit': 'string', 'value': 'auto' }]
   },

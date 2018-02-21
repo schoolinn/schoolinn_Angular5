@@ -1,6 +1,10 @@
 #iheader {
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 22;
     .container {
+        background: #fff;
         width: 950px;
         margin: 0 auto;
         #iheader-logo {

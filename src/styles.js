@@ -25,5 +25,8 @@ export default StyleSheet.create({
   },
   'fr': {
     'float': 'right'
+  },
+  'main': {
+    'paddingTop': [{ 'unit': 'px', 'value': 80 }, { 'unit': 'string', 'value': '!important' }]
   }
 });

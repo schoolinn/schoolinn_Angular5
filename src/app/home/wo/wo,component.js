@@ -7,6 +7,8 @@ export default StyleSheet.create({
     'paddingTop': [{ 'unit': 'px', 'value': 20 }]
   },
   'main user-l': {
+    'position': 'fixed',
+    'top': [{ 'unit': 'px', 'value': 90 }],
     'width': [{ 'unit': 'px', 'value': 240 }],
     'height': [{ 'unit': 'px', 'value': 400 }],
     'padding': [{ 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }]
@@ -63,7 +65,8 @@ export default StyleSheet.create({
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
     'padding': [{ 'unit': 'px', 'value': 7 }, { 'unit': 'px', 'value': 5 }, { 'unit': 'px', 'value': 7 }, { 'unit': 'px', 'value': 20 }],
     'fontSize': [{ 'unit': 'px', 'value': 16 }],
-    'fontWeight': '400'
+    'fontWeight': '400',
+    'borderBottom': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#eee' }]
   },
   'main panel content': {
     'padding': [{ 'unit': 'px', 'value': 12 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }]
@@ -178,5 +181,38 @@ export default StyleSheet.create({
     'textAlign': 'center',
     'float': 'left',
     'color': '#333'
+  },
+  'main works work': {
+    'marginBottom': [{ 'unit': 'px', 'value': 20 }]
+  },
+  'main works work title': {
+    'float': 'left',
+    'fontSize': [{ 'unit': 'px', 'value': 14 }],
+    'fontWeight': '600'
+  },
+  'main works work title a': {
+    'color': '#258fe6'
+  },
+  'main works work duty': {
+    'color': '#768696',
+    'fontWeight': '400',
+    'fontSize': [{ 'unit': 'px', 'value': 12 }],
+    'float': 'right'
+  },
+  'main works work description': {
+    'marginTop': [{ 'unit': 'px', 'value': 8 }],
+    'marginBottom': [{ 'unit': 'px', 'value': 10 }],
+    'fontSize': [{ 'unit': 'px', 'value': 14 }],
+    'color': '#2b303c'
+  },
+  'main works work image-list ul': {
+    'overflow': 'hidden'
+  },
+  'main works work image-list ul li': {
+    'float': 'left',
+    'width': [{ 'unit': 'px', 'value': 180 }],
+    'height': [{ 'unit': 'px', 'value': 140 }],
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f1f1f1' }],
+    'textAlign': 'center'
   }
 });
