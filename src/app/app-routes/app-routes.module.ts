@@ -28,6 +28,11 @@ const appRoutes: Routes = [
     path: 'wo',
     loadChildren: 'app/home/wo/wo.module#WoModule',
     //canActivate: [CanActivateService]
+  },
+  {
+    path: 'questions',
+    loadChildren: 'app/home/questions/questions.module#QuestionsModule',
+    //canActivate: [CanActivateService]
   }
 ]
 
